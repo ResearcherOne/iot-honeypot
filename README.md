@@ -2,7 +2,7 @@
 This repository contains a simple honeypot written in Python that will be deployed through Docker on Raspberry Pi.
 
 # Prerequisities for running pure Python script
-- echo "Follow these steps only if you do not want to proceed with Docker"
+- echo "Follow these steps only if you do not want to proceed with Docker."
 - sudo apt install python3-pip -y
 - sudo pip3 install virtualenv
 - virtualenv -p python3 venv
@@ -10,6 +10,9 @@ This repository contains a simple honeypot written in Python that will be deploy
 - pip3 install sendgrid
 - export SENDGRID_API_KEY="your-top-secret-sendgrid-api-key"
 - sudo -E python3 ftp-honeypot.py
+
+# Prerequisities
+- Sign up and generate SENDGRID API KEY for free email service. - https://sendgrid.com/
 
 # Dockerization of the Python application
 - cd src
