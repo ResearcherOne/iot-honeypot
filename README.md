@@ -1,5 +1,5 @@
 # iot-honeypot
-This repository contains a simple honeypot written in Python that will be deployed through Docker on Raspberry Pi.
+This repository contains a simple honeypot written in Python that will be deployed through Docker on Raspberry Pi. This is a proof of concept code and should not be used in production environments.
 
 # Prerequisities for running pure Python script
 - echo "Follow these steps only if you do not want to proceed with Docker."
