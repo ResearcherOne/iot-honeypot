@@ -8,7 +8,7 @@ This repository contains a simple honeypot written in Python that will be deploy
 - virtualenv -p python3 venv
 - source venv/bin/activate
 - pip3 install sendgrid
-- export SENDGRID_API_KEY="your-top-secret-sendgrid-api-key"
+- export SENDGRID_API_KEY="your-top-secret-sendgrid-api-key" && export HONEY_FROM_MAIL="from@email.com" && export HONEY_TO_MAIL="email_address@to_be_alerted.com"
 - sudo -E python3 ftp-honeypot.py
 
 # Prerequisities
@@ -28,7 +28,7 @@ This repository contains a simple honeypot written in Python that will be deploy
 - git clone this-repository
 - cd src
 - sudo docker build -t ftp-honeypot .
-- sudo docker run -p 21:21 -e "SENDGRID_API_KEY=your-top-secret-sendgrid-api-key" -e "HONEY_FROM_MAIL=birkan@birkan.com" -e "HONEY_TO_MAIL=birkan.kolcu@ozu.edu.tr" dockerhub-username/ftp-honeypot
+- sudo docker run -p 21:21 -e "SENDGRID_API_KEY=your-top-secret-sendgrid-api-key" -e "HONEY_FROM_MAIL=from@email.com" -e "HONEY_TO_MAIL=email_address@to_be_alerted.com" dockerhub-username/ftp-honeypot
 
 # Testing the setup
 - echo "find target host. This should also trigger alerts."
