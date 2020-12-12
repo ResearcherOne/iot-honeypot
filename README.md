@@ -1,5 +1,7 @@
 # IoT Honeypot
-This repository contains a simple honeypot written in Python that will be deployed through Docker on Raspberry Pi. This is a proof of concept code and **should not be used in production environments**. You can find my related talk in Turkish in the following link https://www.youtube.com/watch?v=PKCdJzwtpEA&t=1207s
+This repository contains a simple honeypot written in Python that will be deployed through Docker on Raspberry Pi. This is a proof of concept code and **should not be used in production environments**. You can find my related talk in Turkish in the following link https://www.youtube.com/watch?v=PKCdJzwtpEA
+
+[![Python Saati Talk.](https://raw.githubusercontent.com/ResearcherOne/iot-honeypot/master/python-saati.png)](https://www.youtube.com/watch?v=PKCdJzwtpEA "Python Saati Talk")
 
 # Prerequisities for running pure Python script
 - echo "Follow these steps only if you do not want to proceed with Docker."
